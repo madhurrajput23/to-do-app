@@ -147,17 +147,18 @@ span {
 .todo-item {
   font-size: 20px;
   color: #1c2833;
-  border-radius: 30px;
+  border-radius: 20px;
   transition: background-color 200ms ease-in-out;
   background-color: #f2f3f4;
-  min-width: 35rem;
-  max-width: 40rem;
+  min-width: 30rem;
+  max-width: 30rem;
   padding: 1.6rem 3rem;
   display: grid;
   gap: 1.6rem;
   grid-template-columns: 1fr 0.3fr 0.3fr;
   justify-content: start;
   overflow-wrap: anywhere;
+  margin-top: 8px;
 }
 
 li span {
